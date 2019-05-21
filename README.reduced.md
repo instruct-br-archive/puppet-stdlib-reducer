@@ -10,6 +10,8 @@ Check the `deprecated-functions.txt` file on this repository and also the `reduc
 
 The resulting module supports Puppet 5.5 or newer.
 
+For more information on what is being removed check https://github.com/instruct-br/puppet-stdlib-reducer
+
 ## TODO
 
 Some deprecated functions are used by unit tests and are still present:
