@@ -29,8 +29,10 @@ git rm spec/acceptance/anchor_spec.rb
 git mv README.md README.original.md
 
 cp ../README.reduced.md README.md
+cp ../deprecated-functions.txt .
 
 git add README.md
+git add deprecated-functions.txt
 
 git commit -a -m "Reduced commit ${GIT_COMMIT} on ${CURRENT_DATE}"
 git remote rm origin
