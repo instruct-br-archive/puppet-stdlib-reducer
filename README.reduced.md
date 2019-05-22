@@ -14,9 +14,14 @@ For more information on what is being removed check https://github.com/instruct-
 
 ## TODO
 
-Some deprecated functions are used by unit tests and are still present:
+1) Some deprecated functions are used by unit tests and are still present:
 
 * is_integer
 * is_absolute_path
 * str2bool
 
+2) Document native code alternatives for the removed functions
+
+3) Inspect the compat type aliases
+
+4) Track each release of `stdlib`
