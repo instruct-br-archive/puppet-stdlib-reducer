@@ -30,6 +30,7 @@ git mv README.md README.original.md
 
 cp ../README.reduced.md README.md
 cp ../deprecated-functions.txt .
+cp ../metadata.json .
 
 git add README.md
 git add deprecated-functions.txt
